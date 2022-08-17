@@ -1,0 +1,67 @@
+/*  */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    width: 1100px;
+    color: #f9f9f9;
+    border-radius: 10px;
+    background: rgba(133, 122, 122, 0.181);
+    backdrop-filter: blur(10px);
+    font-family: 'navbae' ;
+}
+  
+  
+.image {
+    width: 40px;
+}
+  
+.name {
+    width: 140px;
+    font-size: 14px;
+    margin-left: 15px;
+    text-align: left;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'title';
+}
+  
+.symbol {
+    text-align: left;
+    width: 100px;
+}
+  
+.currentPrice {
+    text-align: left;
+    width: 100px;
+}
+  
+.greenPriceChange,
+.redPriceChange {
+    width: 100px;
+    text-align: left;
+    font-weight: bold;
+}
+  
+.redPriceChange {
+    display: flex;
+    justify-content: center;
+    color: rgb(254, 210, 210);
+    background: rgba(255, 38, 38, 0.415);
+    padding: 5px;
+    border-radius: 10px ;
+}
+  
+.greenPriceChange {
+    display: flex;
+    justify-content: center;
+    color: rgb(210, 254, 225);
+    background: rgba(38, 255, 99, 0.356);
+    padding: 5px;
+    border-radius: 10px ;
+}
+ 

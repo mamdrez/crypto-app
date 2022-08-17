@@ -1,0 +1,52 @@
+.container {
+  width: 1170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+
+.container h1 {
+  font-family: 'title';
+  color: #fff;
+  font-size: 3rem;
+  margin-top: 60px;
+}
+
+
+.coinContainer {
+  margin: 55px auto;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: transparent;
+  margin-bottom: 40px;
+}
+
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 500px;
+  margin-top: 30px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  height: 20px;
+  padding: 15px;
+  background: rgba(181, 179, 179, 0.121);
+  backdrop-filter: blur(10px);
+  transition: all 0.1s ease;
+  font-family: 'navbae';
+  font-size: 1rem;
+}
+
+.input:focus {
+  outline: none;
+  color: rgb(255, 255, 255);
+  /* border-color: white; */
+  background: transparent;
+  box-shadow: rgba(235, 235, 235, 0.24) 0px 3px 8px;
+}
