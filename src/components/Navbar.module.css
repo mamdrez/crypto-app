@@ -11,7 +11,7 @@
     flex-direction: row-reverse;
     align-items: center;
     background-color: transparent;
-    height: 70px;
+    /* height: 70px; */
     margin: 0 auto;
     padding: 0 50px;
     width: 1170px ;
@@ -45,3 +45,50 @@
 .list li a:hover {
     color: rgba(88, 88, 88, 0.795);
 }
+
+@media (max-width : 1270px) {
+    .header {
+        width: auto;
+    }
+}
+
+@media (max-width : 714px) {
+    .header {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .logo h1 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width : 446px) {
+    .list {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        margin: 0 auto;
+        font-size: 13px;
+        /* width: auto; */
+    }
+    .listContainer {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        align-items: center;
+        /* width: 100%; */
+    }
+  }

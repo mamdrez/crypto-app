@@ -23,24 +23,30 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>
-        <button className={styles.button}><Link to='/market'>Cheak Market</Link></button>
+      <p className={styles.textCard}>Top #4</p>
+        <button className={styles.button}>
+          <Link to="/market">Cheak Market</Link>
+        </button>
         <h1>
           All In One, <br />
           Cryptocurrency Solutions!
         </h1>
+        
       </div>
-      <div className={styles.topCard}>
-        {coins.map((coin) => (
-          <Topcoin
-            key={coin.id}
-            name={coin.name}
-            image={coin.image}
-            symbol={coin.symbol}
-            price={coin.current_price}
-            marketCap={coin.market_cap}
-            priceChange={coin.price_change_percentage_24h}
-          />
-        ))}
+      <div className={styles.cards}>
+        <div className={styles.topCard}>
+          {coins.map((coin) => (
+            <Topcoin
+              key={coin.id}
+              name={coin.name}
+              image={coin.image}
+              symbol={coin.symbol}
+              price={coin.current_price}
+              marketCap={coin.market_cap}
+              priceChange={coin.price_change_percentage_24h}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

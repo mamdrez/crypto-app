@@ -50,3 +50,53 @@
   background: transparent;
   box-shadow: rgba(235, 235, 235, 0.24) 0px 3px 8px;
 }
+
+@media (max-width : 1270px){
+  .container {
+    width: auto;
+  }
+}
+
+@media (max-width : 1270px) {
+  .input {
+    width: 300px;
+  }
+}
+
+@media (max-width : 356px) {
+  .input{
+    width: 200px;
+    height: 10px;
+  }
+}
+
+
+/* @media (max-width : 1270px) {
+  .coinContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(225px , 1fr));
+    grid-template-rows: auto;
+    gap: 30px;
+    margin: 0 auto;
+    width: 1170px;
+  }
+}
+
+@media (max-width : 1200px) {
+  .coinContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(225px , 1fr));
+    grid-template-rows: auto;
+    gap: 30px;
+    margin: 0 auto;
+    width: 1170px;
+  }
+
+  .input {
+    width: 300px;
+  }
+} */
+
+
+
+
