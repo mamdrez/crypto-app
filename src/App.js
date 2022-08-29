@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/market" element={<Landing/>} />
         </Routes>
+        <Footer />
       </div>
   );
 }

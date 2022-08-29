@@ -23,15 +23,16 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>
-      <p className={styles.textCard}>Top #4</p>
+        <div className={styles.textCard}>Top #4</div>
         <button className={styles.button}>
           <Link to="/market">Cheak Market</Link>
         </button>
-        <h1>
-          All In One, <br />
-          Cryptocurrency Solutions!
-        </h1>
-        
+        <div className={styles.containerTextHeader}>
+          <div className={styles.contentTextheader}>
+            <div className={styles.textHeader}>All In One,</div>
+            <div className={styles.textHeader}> Cryptocurrency Solutions!</div>
+          </div>
+        </div>
       </div>
       <div className={styles.cards}>
         <div className={styles.topCard}>
